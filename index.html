@@ -62,8 +62,8 @@
             @apply h-14 w-auto;
         }
 
-        p {
-        @apply text-neutral-500 font-medium;
+        p, label{
+            @apply text-neutral-500 font-medium;
         }
         
         h1 {
@@ -216,6 +216,17 @@
             </div>
         </section>
 
+        <section class="relative" title="DevOps culture - infrastructure as code and everyone is able to help with infrastructure">
+            <div class="container w-full flex flex-col lg:flex-row md:flex-col items-center gap-12 mt-14 lg:mt-28">
+                <div class="w-full md:w-1/2">
+                    <h2>DevOps culture - infrastructure as code and everyone is able to help with infrastructure</h2>
+                </div>
+                <div class="w-full md:w-1/2">
+                    <iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/WwAL2QkxAOs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                </div>
+            </div>
+        </section>
+
         <section class="relative" title="Technologies we use">
             <div class="container flex flex-col gap-6 lg:gap-12 mt-14 lg:mt-28">
                 <div>
@@ -283,14 +294,19 @@
             </div>
         </section>
 
-        <section class="relative mb-14 lg:mb-28" title="DevOps culture - infrastructure as code and everyone is able to help with infrastructure">
-            <div class="container w-full flex flex-col lg:flex-row md:flex-col items-center gap-12 mt-14 lg:mt-28">
-                <div class="w-full md:w-1/2">
-                    <h2>DevOps culture - infrastructure as code and everyone is able to help with infrastructure</h2>
-                </div>
-                <div class="w-full md:w-1/2">
-                    <iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/WwAL2QkxAOs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
-                </div>
+        <div>
+
+        </div>
+
+        <section class="relative mb-14 lg:mb-28" title="Contact us">
+            <div class="container w-full flex justify-center gap-12 mt-14 lg:mt-28">
+                <form action="https://contactform.dk/sbl@greenmobility.dk" class="flex flex-col w-80">
+                    <label>Your name</label>
+                    <input class="my-2 appearance-none border border-2 border-neutral-300 rounded w-full py-4 px-4 text-neutral-700 leading-tight focus:outline-none focus:shadow-outline focus:border-green-600" type="text" name="name" />
+                    <label>Your message</label>
+                    <textarea class="my-2 appearance-none border border-2 border-neutral-300 rounded w-full py-4 px-4 text-neutral-700 leading-tight focus:outline-none focus:shadow-outline focus:border-green-600" rows="4" cols="50" type="message" name="message" ></textarea>
+                    <button type="submit" class="w-full button-primary mt-2">Send email</button>
+                  </form>
             </div>
         </section>
     </body>
